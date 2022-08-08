@@ -2,7 +2,7 @@
 """
 @author: Qiwen Zhu
 
-Last update on Mon Aug 8 2022
+Last modified: Mon Aug 8 2022
 """
 
 import pyvista as pv # vtk IO
