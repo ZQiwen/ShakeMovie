@@ -13,3 +13,5 @@ Edit Line "MakeShakeMovie('./data/','gif')" and Run the script make_shake_movie.
 where './data/' is the path to the folder containing your vtk/vtu files
 
 and 'gif' is the format of the output shake movie. Choose between 'mp4' and 'gif'.
+
+Uncommomet Line 'plotter.camera.position=(11798222,3793317,709988)' to set the camera to the default position. 
