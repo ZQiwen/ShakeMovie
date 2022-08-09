@@ -5,7 +5,7 @@ Written originally for visualizing wavefields computed by the SPECFEM3D_Cartesio
 ## Requirements:
 Wavefield data in vtk or vtu format (<https://vtk.org>). 
 
-Python environment with modules pyvista (<https://docs.pyvista.org>) and matplotlib (<https://matplotlib.org>).
+Python environment (tested on 3.7.10) with modules pyvista (<https://docs.pyvista.org>, tested on version 0.36.1), imageio-ffmpeg (<https://github.com/imageio/imageio-ffmpeg>, tested on version 0.4.7) and matplotlib (<https://matplotlib.org>).
 
 ## Usage:
 Edit Line "MakeShakeMovie('./data/','gif')" and Run the script make_shake_movie.py.
