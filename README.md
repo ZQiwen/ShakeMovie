@@ -7,6 +7,12 @@ Wavefield data in vtk or vtu format (<https://vtk.org>).
 
 Python environment (tested on 3.7.10) with modules pyvista (<https://docs.pyvista.org>, tested on version 0.36.1), imageio-ffmpeg (<https://github.com/imageio/imageio-ffmpeg>, tested on version 0.4.7) and matplotlib (<https://matplotlib.org>).
 
+If you use anaconda as the Python environment manager, you can create a environment satisfying the above requirements from the pyvista.yml:
+
+```
+conda env create -f pyvista.yml
+```
+
 ## Usage:
 Edit Line "MakeShakeMovie('./data/','gif')" and Run the script make_shake_movie.py.
 
