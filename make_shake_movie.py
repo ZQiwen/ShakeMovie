@@ -61,7 +61,8 @@ def MakeShakeMovie(filefolder,format='mp4'):
     if format == 'gif': # Open a gif
         plotter.open_gif(filefolder+"/../wave.gif")
     elif format == 'mp4': # Open a mp4
-        plotter.open_movie(filefolder+"/../wave.mp4",framerate=12,quality=10)
+        # windows-media-player can not play the video with quality 10
+        plotter.open_movie(filefolder+"/../wave.mp4",framerate=12,quality=6)
     else:
         print('Error: Unsupported format. ShakeMovie Only support gif and mp4.')
 
